@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kohaloleku arvestus</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Kohaloleku arvestus</h1>
+      <div class="teacher-selector">
+        <label for="teacher-select">Õpetaja:</label>
+        <select id="teacher-select">
+          <option value="">Vali õpetaja...</option>
+        </select>
+      </div>
+      <div class="date-selector">
+        <label for="date-picker">Kuupäev:</label>
+        <input type="date" id="date-picker">
+      </div>
+      <div class="lesson-selector">
+        <label for="lesson-input">Tund:</label>
+        <input type="text" id="lesson-input" placeholder="Tunni nimi">
+      </div>
+    </header>
+    
+    <main>
+      <div class="tabs">
+        <button class="tab-button active" data-tab="attendance">Kohaloleku</button>
+        <button class="tab-button" data-tab="students">Õpilased</button>
+        <button class="tab-button" data-tab="teachers">Õpetajad</button>
+        <button class="tab-button" data-tab="statistics">Statistika</button>
+      </div>
+      
+      <div class="tab-content" id="attendance-tab">
+        <div class="attendance-list">
+          <div class="attendance-header">
+            <span>Nimi</span>
+            <span>Kohaloleku</span>
+            <span>Põhjus</span>
+            <span>Tund</span>
+          </div>
+          <div id="attendance-records">
+            <!-- Attendance records will be inserted here -->
+          </div>
+        </div>
+        <button id="export-button" class="action-button">
+          <i data-lucide="file-down"></i> Ekspordi CSV
+        </button>
+      </div>
+      
+      <div class="tab-content hidden" id="students-tab">
+        <div class="add-form">
+          <div class="form-group">
+            <label for="student-name">Õpilase nimi:</label>
+            <input type="text" id="student-name" placeholder="Õpilase nimi">
+          </div>
+          <button id="add-student-button" class="action-button">
+            <i data-lucide="user-plus"></i> Lisa õpilane
+          </button>
+        </div>
+        <div class="student-list">
+          <div class="student-header">
+            <span>Nimi</span>
+            <span>Puudumised</span>
+            <span>Hilinemised</span>
+          </div>
+          <div id="student-records">
+            <!-- Student records will be inserted here -->
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content hidden" id="teachers-tab">
+        <div class="add-form">
+          <div class="form-group">
+            <label for="teacher-name">Õpetaja nimi:</label>
+            <input type="text" id="teacher-name" placeholder="Õpetaja nimi">
+          </div>
+          <div class="form-group">
+            <label for="teacher-subject">Õppeaine:</label>
+            <input type="text" id="teacher-subject" placeholder="Õppeaine">
+          </div>
+          <button id="add-teacher-button" class="action-button">
+            <i data-lucide="user-plus"></i> Lisa õpetaja
+          </button>
+        </div>
+        <div class="teacher-list">
+          <div class="teacher-header">
+            <span>Nimi</span>
+            <span>Õppeaine</span>
+            <span>Õpilasi</span>
+          </div>
+          <div id="teacher-records">
+            <!-- Teacher records will be inserted here -->
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content hidden" id="statistics-tab">
+        <div class="stats-container">
+          <div class="stat-box">
+            <h3>Kohaloleku määr</h3>
+            <div class="big-stat" id="attendance-rate">0%</div>
+          </div>
+          <div class="stat-box">
+            <h3>Õpilaste arv</h3>
+            <div class="big-stat" id="student-count">0</div>
+          </div>
+          <div class="stat-box">
+            <h3>Puudumisi</h3>
+            <div class="big-stat" id="absence-count">0</div>
+          </div>
+          <div class="stat-box">
+            <h3>Hilinemisi</h3>
+            <div class="big-stat" id="late-count">0</div>
+          </div>
+        </div>
+        <div class="chart-container">
+          <canvas id="attendance-chart"></canvas>
+        </div>
+      </div>
+    </main>
+  </div>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>

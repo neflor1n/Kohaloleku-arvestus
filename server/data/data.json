@@ -1,0 +1,67 @@
+{
+  "teachers": [
+    {
+      "id": "1746429619424",
+      "name": "Marina Oleinik",
+      "subject": "programeerimine"
+    },
+    {
+      "id": "1746429633086",
+      "name": "irina merkulova",
+      "subject": "Tarkvaraarendus"
+    }
+  ],
+  "students": [
+    {
+      "id": "1746429642781",
+      "name": "martin sild",
+      "teacherId": "1746429619424",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "lesson": "teha suulist tööd",
+          "status": "present",
+          "reason": ""
+        },
+        {
+          "date": "2025-05-06",
+          "lesson": "teha suulist tööd",
+          "status": "absent",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746429650590",
+      "name": "david lennuk",
+      "teacherId": "1746429619424",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "lesson": "teha suulist tööd",
+          "status": "absent",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746429657560",
+      "name": "gleb sotjov",
+      "teacherId": "1746429619424",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "lesson": "teha suulist tööd",
+          "status": "present",
+          "reason": ""
+        },
+        {
+          "date": "2025-05-06",
+          "lesson": "teha suulist tööd",
+          "status": "absent",
+          "reason": ""
+        }
+      ]
+    }
+  ]
+}

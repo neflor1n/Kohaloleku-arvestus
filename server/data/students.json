@@ -1,0 +1,224 @@
+{
+  "students": [
+    {
+      "id": "1746427724975",
+      "name": "martin",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "present",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427752510",
+      "name": "gleb",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "present",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427760106",
+      "name": "bogdan",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "present",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427763112",
+      "name": "lennuk",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "absent",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427771665",
+      "name": "david grogorii",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "absent",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427776732",
+      "name": "vlad",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "present",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427781942",
+      "name": "sanja",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "present",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427791074",
+      "name": "anton",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "late",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427794965",
+      "name": "viblyy",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "late",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427797257",
+      "name": "erik",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "present",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427799834",
+      "name": "seva",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "late",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427806926",
+      "name": "kirill",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "present",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427818654",
+      "name": "podkopaev",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "present",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427823397",
+      "name": "buketov",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "late",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427831247",
+      "name": "mihail",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "late",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427865748",
+      "name": "nadeжда",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "late",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427870009",
+      "name": "natalija",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "late",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427874334",
+      "name": "olja",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "present",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427877479",
+      "name": "viktor",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "present",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "id": "1746427886823",
+      "name": "grigorii jumbujaev",
+      "attendanceRecords": [
+        {
+          "date": "2025-05-05",
+          "status": "late",
+          "reason": ""
+        }
+      ]
+    }
+  ]
+}
